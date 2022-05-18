@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
     fname: {
         type: String,
         required: true,
-        trim: true
+        trim: true    
     },
 
     lname: {
@@ -57,7 +57,7 @@ const userSchema = new mongoose.Schema({
         },
         billing: {
             street: {
-                type: String,
+                type: String ,
                 required: true,
                 trim: true
             },
